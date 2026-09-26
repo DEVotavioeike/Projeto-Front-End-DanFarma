@@ -1,0 +1,130 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #cccccc;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Atributos da logo*/
+.logo img {
+  display: block;
+  width: 275px;
+  height: 90px;
+  margin-left: 80px;
+}
+
+/* Atributos da guia de navegacao*/
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #1a1a2e;
+  font-size: 17px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #e31b3b;
+  transform: scaleX(0);
+  transition: transform 0.25s ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Atributos do botao de pesquisa*/
+.search-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-box img {
+  height: 40px;
+  width: 45px;
+}
+
+.search-toggle {
+  display: none;
+}
+
+.search-btn {
+  cursor: pointer;
+  font-size: 30px;
+  background: none;
+  border: none;
+}
+
+.search-input {
+  width: 0;
+  opacity: 0;
+  padding: 0;
+  margin-left: 0;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  background-color: #cccccc;
+  transition:
+    width 0.3s ease,
+    margin-left 0.3s ease;
+  height: 50px;
+}
+
+.search-toggle:checked ~ .search-input {
+  width: 200px;
+  opacity: 1;
+  margin-left: 10px;
+  padding: 7px;
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+  background-color: #cccccc;
+}
+
+.btn-login {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  background-color: #e31b3b;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border-style: none;
+  transition: background-color 0.2s ease;
+  margin-right: 80px;
+}
+
+.btn-login:hover {
+  background-color: #c21631;
+  cursor: pointer;
+}

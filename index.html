@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DanFarma - Saúde sempre com você</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/botao_Whatsap_Flutuante.css" />
+    <link rel="stylesheet" href="css/carossel.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img
+          src="imagens/logo-danfarma.png"
+          alt="DanFarma - Saúde sempre com você"
+        />
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#" class="nav-link">Medicamentos</a></li>
+          <li><a href="#" class="nav-link">Exames</a></li>
+          <li><a href="#" class="nav-link">Vitaminas e Suplementos</a></li>
+          <li><a href="#" class="nav-link">Beleza</a></li>
+          <li><a href="#" class="nav-link">Central de Atendimento</a></li>
+          <li><a href="#" class="nav-link">Trabalhe Conosco</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="search-box">
+          <input type="checkbox" id="search-toggle" class="search-toggle" />
+          <label
+            for="search-toggle"
+            class="search-btn"
+            aria-label="Abrir pesquisa"
+            ><img src="imagens/btn-pesquisa.png" alt="Botao de pesquisa"
+          /></label>
+          <input
+            type="text"
+            class="search-input"
+            placeholder="O que você procura?"
+          />
+        </div>
+
+        <span class="divider"></span>
+
+        <button class="btn-login" aria-label="Botao de login">
+          <p>Login</p>
+        </button>
+      </div>
+    </header>
+
+    <section class="carousel" aria-label="Promoções">
+      <button
+        class="carousel-arrow carousel-arrow--prev"
+        aria-label="Slide anterior"
+      >
+        ‹
+      </button>
+
+      <div class="carousel-viewport">
+        <ul class="carousel-track">
+          <li class="carousel-slide">
+            <a href="promo-primavera.html">
+              <img
+                src="imagens/carossel/cupom.jpg"
+                alt="A primavera chegou - R$35 OFF com cupom PRIMAVERA35"
+              />
+            </a>
+          </li>
+          <li class="carousel-slide">
+            <a href="promo-vitaminas.html">
+              <img
+                src="imagens/carossel/vitaminas_e_suplementos.jpg"
+                alt="Promoção de vitaminas e suplementos"
+              />
+            </a>
+          </li>
+          <li class="carousel-slide">
+            <a href="promo-beleza.html">
+              <img
+                src="imagens/carossel/produtos_de_beleza.jpg"
+                alt="Promoção de produtos de beleza"
+              />
+            </a>
+          </li>
+          <li class="carousel-slide">
+            <a href="promo-exames.html">
+              <img
+                src="imagens/carossel/agende_exames.jpg"
+                alt="Agende seus exames com desconto"
+              />
+            </a>
+          </li>
+          <li class="carousel-slide">
+            <a href="promo-app.html">
+              <img
+                src="imagens/carossel/baixe_app.jpg"
+                alt="Baixe o app DanFarma"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <button
+        class="carousel-arrow carousel-arrow--next"
+        aria-label="Próximo slide"
+      >
+        ›
+      </button>
+
+      <div class="carousel-dots"></div>
+    </section>
+
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <span class="hero-tag">NOSSA HISTÓRIA</span>
+
+          <h1 class="hero-title">
+            Uma farmácia<br />
+            dinamarquesa, com<br />
+            o propósito de transformar<br />
+            <span class="highlight">o cuidado em inovação.</span>
+          </h1>
+
+          <p class="hero-text">
+            A DanFarma nasceu na Dinamarca, um país reconhecido mundialmente por
+            sua qualidade de vida, bem-estar e inovação. Inspirados por esses
+            valores, trouxemos para o Brasil um novo conceito de farmácia: mais
+            tecnologia, mais praticidade e um cuidado verdadeiramente humano.
+          </p>
+
+          <ul class="hero-features">
+            <li class="feature-item">
+              <img
+                src="imagens/icone-entrega-rapida.png"
+                alt="Icone de entrega rapida"
+              />
+              <p>Entrega em <br />30 minutos</p>
+            </li>
+            <span class="divider"></span>
+            <li class="feature-item">
+              <img
+                src="imagens/icone-atendimento.jpeg"
+                alt="Icone de Atendimento especializado"
+              />
+              <p>Atendimento<br />especializado</p>
+            </li>
+            <span class="divider"></span>
+            <li class="feature-item">
+              <img
+                src="imagens/icone-tecnologia.png"
+                alt="Icone de Tecnologia a favor da sua saúde"
+              />
+              <p>Tecnologia a favor<br />da sua saúde</p>
+            </li>
+            <span class="divider"></span>
+            <li class="feature-item">
+              <img
+                src="imagens/icone-saude.jpeg"
+                alt="Icone de Mais bem-estar para você"
+              />
+              <p>Mais bem-estar<br />para você</p>
+            </li>
+          </ul>
+
+          <a href="#" class="btn-primary">
+            Conheça a DanFarma
+            <span class="arrow">→</span>
+          </a>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="imagens/fachada-loja.png"
+            alt="Fachada de uma loja DanFarma"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="rodape">
+        <img src="imagens/icone-atendimento-telefonico.png" alt="" />
+        <div>
+          <p class="informacao_importante">Telefone:</p>
+          <p class="texto_do_rodape">4002-8922</p>
+        </div>
+      </div>
+      <span class="divider"></span>
+      <div class="rodape">
+        <img src="imagens/icone-email.png" alt="" />
+        <div>
+          <p class="informacao_importante">contato@danfarma.com.br</p>
+          <p class="texto_do_rodape">Estamos sempre a disposicao!</p>
+        </div>
+      </div>
+      <span class="divider"></span>
+      <div class="rodape">
+        <img src="imagens/icone-polirtica-de-privacidade.png" alt="" />
+        <div>
+          <p class="informacao_importante">Politica de Privacidade</p>
+          <p class="texto_do_rodape">
+            Conheça nossa politica <br />de privacidade!
+          </p>
+        </div>
+      </div>
+    </footer>
+    <a
+      href="https://wa.me/5511987654321"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Fale conosco pelo WhatsApp"
+    >
+      <img src="imagens/icone-whatssap.png" alt="WhatsApp" />
+    </a>
+  </body>
+  <script src="Javascript/carossel.js"></script>
+  <noscript>Ative o Javascript</noscript>
+</html>
