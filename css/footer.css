@@ -35,6 +35,11 @@ background-color: #f2f0ee;
   font-size: 24px;
 }
 
+.highlight-icon img{
+  height: 50px;
+  width: 50px;
+}
+
 .highlight-card div {
   flex: 1;
 }
@@ -93,22 +98,15 @@ background-color: #f2f0ee;
   gap: 12px;
 }
 
-.footer-social a {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #1a1a2e;
-  border-radius: 50%;
-  font-size: 14px;
+.footer-social img{
+  width: 25px;
+  height: 25px;
 }
 
 /* FAIXA DOS 3 ÍCONES */
 .footer-bottom {
   display: flex;
   align-items: center;
-  padding-top: 24px;
   border-top: 1px solid #e5e5e5;
 }
 
@@ -122,6 +120,12 @@ background-color: #f2f0ee;
 .footer-icon {
   font-size: 22px;
   color: #e31b3b;
+}
+
+.footer-icon img{
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
 }
 
 .footer-bottom-item strong {
